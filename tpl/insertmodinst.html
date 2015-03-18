@@ -125,7 +125,7 @@
 			<div class="x_controls">
 				<select name="login_required" id="login_required">
 					<option value="N" selected="selected"|cond="$module_info->login_required=='N'">{$lang->login_not_required}</option>
-					<option value="Y" selected="selected"|cond="$module_info->login_required=='N'">{$lang->payment_after_login}</option>
+					<option value="Y" selected="selected"|cond="$module_info->login_required=='Y'">{$lang->payment_after_login}</option>
 				</select>
 				<a href="#login_required_help" class="x_icon-question-sign" data-toggle>{$lang->help}</a>
 				<p id="login_required_help" class="x_help-block" hidden>{$lang->about_login_required}</p>
